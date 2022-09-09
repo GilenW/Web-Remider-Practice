@@ -1,0 +1,126 @@
+            /* color reference: https://colorhunt.co/palette/fff9caffdeb4ffb4b4b2a4ff */
+
+            /* box-shadow reference: https://getcssscan.com/css-buttons-examples button 30 by algolia */
+
+            /* background pattern reference:  https://www.magicpattern.design/tools/css-backgrounds*/
+            body{
+                /* margin: 0 ; */
+                /* border: red solid; */
+                background-color: #FFF9CA;
+                font-family: Chalkduster, fantasy;
+                background-color: #FFB4B4;
+
+
+                background-image:  linear-gradient(135deg, #FFF9CA 25%, transparent 95%), linear-gradient(225deg, #FFF9CA 25%, transparent 95%), linear-gradient(45deg, #FFF9CA 25%, transparent 25%), linear-gradient(315deg, #FFF9CA 25%, #FFB4B4 25%);
+                background-position:  31px 0, 31px 0, 0 0, 0 0;
+                background-size: 62px 62px;
+                background-repeat: repeat;
+            }
+
+            .header{
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+                font-size: 50px;
+                margin-bottom: 10px;
+                font-family: Chalkduster, fantasy;
+                color: #dd7777;
+                /* border: red solid; */
+            }
+            .inbox{
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+                padding: 2rem;
+                border-radius: 1rem;
+                width: 30%;
+                /* border: rgb(47, 0, 255) solid; */
+                background-color: #FFDEB4;
+
+                box-shadow: rgba(45, 35, 66, 0.4) 0 3px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+            }
+            .add-items {
+                display: flex;
+            }
+            .items{
+                padding: 0;
+            }
+
+            li{
+                padding: 10px 10px 10px 20px;
+                justify-content: space-around;
+                margin-bottom: 1rem;
+                background-color: #f6d9d9;
+                border-radius: 1rem;
+            }
+        
+            ul{
+                list-style-type: none;
+            }
+
+            input[type="text"]{
+                width: 100%;
+                padding: 1rem;
+                border: none;
+                border-radius: 1rem;
+                color: rgb(10, 7, 7);
+                font-size: 20px;
+                background-color: #FFB4B4;
+                margin-right: 5%;
+            }
+            input[type="text"]:focus{
+                outline-style: none;
+                background-color: #B2A4FF;
+                
+            }
+
+            input:focus::placeholder{
+                color: transparent;
+            }
+
+
+
+            input:checked + input[type="text"] {
+                background-color: #dd7777;
+                text-decoration: line-through;
+            }
+
+            input[type="checkbox"]{
+                
+                
+                transform: scale(3);
+                margin-right: 50px;
+            }
+
+            ::placeholder{
+                color: rgba(255, 255, 255, 0.811);
+            }
+
+            .buttons{
+                display: flex;
+                margin: 10px auto;
+                padding: 2rem;
+                width: 30%;
+                justify-content:space-between;
+
+            }
+
+            button, input[type="submit"]{
+                width: 30%;
+                color: #dd7777;
+                font-size: 15px;
+                padding: 1rem;
+                border-radius: 1rem;
+                border: none;
+
+                box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+            }
+
+            button:hover, input[type="submit"]:hover{
+                background-color: #dd7777;
+                color: white;
+            }
+            
+            

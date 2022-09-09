@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Reminder</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!-- problems still need to fix:
+        2. small screen everything squeezes        -->
+        
+        <div class="header"> Today's routine</div>
+        <div class="inbox">
+            <ul class="items">
+                <li>Add a task for today!</li>
+            </ul>
+            <form class="add-items">
+                <input type="text" name="item" placeholder="New Task" required>
+                <input type="submit" value="+ Add Item">
+            </form>
+        </div>
+        <div class="buttons">
+            <button id="completeAll">Complete All</button>
+            <button id="clean">Clean</button>
+        </div>
+
+
+        <script src="./app.js"></script>
+    </body>
+</html>
